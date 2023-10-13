@@ -26,7 +26,7 @@ const deleteItem = function(){
 const generateItemDetails = function(details){
     const rowDetails = document.getElementById('item-details')
     rowDetails.innerHTML = `
-    <div class="col col-12 my-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+    <div class="col col-12 my-5 shadow p-3 mb-5 bg-body-tertiary rounded img-chr">
         <h2 class="text-center fs-4">DETTAGLI PRODOTTO</h2>
         <div class="d-flex justify-content-center ">
         <img src="${details.imageUrl}" alt="immagine-item" class="w-50" />
@@ -37,10 +37,10 @@ const generateItemDetails = function(details){
             <p>${details.description}</p>
             <p>Prezzo: ${details.price}€</p>
             <div class="d-flex justify-content-center w-100">
-                <button class="btn btn-outline-danger w-30 me-1" type="button" onclick="deleteItem()">
+                <button class="btn btn-outline-danger w-30 me-1 bord-bold" type="button" onclick="deleteItem()">
                 Elimina
                 </button>
-                    <a class="btn btn-outline-danger w-30" href="../backoffice/backoffice.html?itemId=${details._id}">
+                    <a class="btn btn-outline-danger w-30 bord-bold" href="../backoffice/backoffice.html?itemId=${details._id}">
                 Modifica
                 </a>
             </div>

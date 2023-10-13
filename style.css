@@ -6,4 +6,16 @@
 .scale:hover {
   scale: 1.1;
   z-index: 1000;
+}
+
+.img-chr {
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/christmas-background%2C-zoom-background-design-template-70df9e6e9ae4f1ddc6f7a17e319697a2_screen.jpg?ts=1606040649);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bord-bold {
+  border: solid 2px red;
+  color: red;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
